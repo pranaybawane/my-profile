@@ -57,7 +57,32 @@
      }
      .ss{
       padding-left: 15px;
-     }
+      padding-right: 15px;
+       
+      }
+      td,th{
+        padding: 10px;
+      }
+      #techTtack{
+        width: 50%;
+
+      }
+      .header li{
+        list-style-type: circle;
+      }
+      .Roles{
+        list-style-type: lower-alpha;
+      }
+      .Roles li{
+        padding-top: 10px;
+      }
+      #listSummary li{
+        list-style-type: none;
+      }
+      #listSummary li::marker{
+        content: "✍️";
+      }
+    
     
 
 
@@ -106,8 +131,8 @@
     <!-- Main Section -->
 
     <section id="home">
-        <h2 class="header">Professional Summery </h2>
-        <ul>
+        <h2 class="">Professional Summery </h2>
+        <ul id="listSummary">
             <li>Having 1 year of experience in developing Single page Web Application using <span id="ww">Angular 8 </span>, HTML5,CSS3,Bootstrap 5, JavaScript,TypeScript</li>
             <li class="ee">Experience on working with version control system-GIT and GitHub</li>
             <li>Experience working with JIRA for user stories and bug tracking</li>
@@ -124,7 +149,7 @@
     <section id="techStack">
       <h2 class="header">My Technology Stack is..</h2>
 
-      <table border="1">
+      <table id="techTtack" border="1">
         <thead>
           <tr>
             <th>Sr.No</th>
@@ -171,10 +196,10 @@
       student registration,student update, and to see all the list of academics activities like score card and attendence </p>
       
   
-      <h2 class="header">Roles and Responsibilities</h2>
+      <h2 >Roles and Responsibilities</h2>
   
      
-          <ul>
+          <ol class="Roles">
   
           <li>Designed and Implemented the user interface using HTML5 and CSS3</li> 
           <li>Work closing with backend developers for code integration</li>
@@ -183,7 +208,7 @@
           <li>Used JIRA for bug tracking</li>
           <li>Implemented project using Agile SCRUM methodology,involves in daily stand up calls, sprint retrospective meetings</li>
           <li>involve in fixing technical issues in environment</li>
-          </ul>
+          </ol>
       
     </section> 
     <hr>
